@@ -1,0 +1,519 @@
+2022-05-04 12:09:19.401  INFO 395057 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 395057 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 12:09:19.433  INFO 395057 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 12:09:22.142  INFO 395057 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 12:09:22.413  INFO 395057 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 256 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 12:09:25.043  INFO 395057 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 12:09:25.087  INFO 395057 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 12:09:25.093  INFO 395057 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 12:09:25.552  INFO 395057 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 12:09:25.553  INFO 395057 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5700 ms
+2022-05-04 12:09:26.415  INFO 395057 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 12:09:26.751  INFO 395057 --- [cluster-ClusterId{value='62721f9ecb475a616c1ab5ca', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:44}] to localhost:27017
+2022-05-04 12:09:26.755  INFO 395057 --- [cluster-rtt-ClusterId{value='62721f9ecb475a616c1ab5ca', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:43}] to localhost:27017
+2022-05-04 12:09:26.772  INFO 395057 --- [cluster-ClusterId{value='62721f9ecb475a616c1ab5ca', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=77718960}
+2022-05-04 12:09:28.556  INFO 395057 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-04 12:09:28.586  INFO 395057 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 11.615 seconds (JVM running for 13.26)
+2022-05-04 12:10:01.200  INFO 395057 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-04 12:10:01.202  INFO 395057 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-04 12:10:01.205  INFO 395057 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-05-04 12:10:01.592  INFO 395057 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:45}] to localhost:27017
+2022-05-04 12:10:01.726  INFO 395057 --- [http-nio-8080-exec-1] c.m.demo.controller.EmployeeController   : data[com.mongo.demo.model.EmployeeModel@34f7aaa7, com.mongo.demo.model.EmployeeModel@511503a8, com.mongo.demo.model.EmployeeModel@4941e34a, com.mongo.demo.model.EmployeeModel@70502185]
+2022-05-04 13:29:13.329  INFO 502893 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 502893 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 13:29:13.369  INFO 502893 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 13:29:16.423  INFO 502893 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 13:29:16.684  INFO 502893 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 247 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 13:29:19.057  INFO 502893 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 13:29:19.143  INFO 502893 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 13:29:19.152  INFO 502893 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 13:29:19.799  INFO 502893 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 13:29:19.800  INFO 502893 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5903 ms
+2022-05-04 13:29:20.673  INFO 502893 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 13:29:20.990  INFO 502893 --- [cluster-rtt-ClusterId{value='6272325831aff479bd768d3c', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:46}] to localhost:27017
+2022-05-04 13:29:20.995  INFO 502893 --- [cluster-ClusterId{value='6272325831aff479bd768d3c', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:47}] to localhost:27017
+2022-05-04 13:29:21.032  INFO 502893 --- [cluster-ClusterId{value='6272325831aff479bd768d3c', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=110537035}
+2022-05-04 13:29:23.650  INFO 502893 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-04 13:29:23.739  INFO 502893 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 13.64 seconds (JVM running for 16.361)
+2022-05-04 13:29:49.513  INFO 502893 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-04 13:29:49.519  INFO 502893 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-04 13:29:49.534  INFO 502893 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2022-05-04 13:29:49.988  INFO 502893 --- [http-nio-8080-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:48}] to localhost:27017
+2022-05-04 13:29:50.132  INFO 502893 --- [http-nio-8080-exec-2] c.m.demo.controller.EmployeeController   : data[com.mongo.demo.model.EmployeeModel@3a3114b2, com.mongo.demo.model.EmployeeModel@59b900ed, com.mongo.demo.model.EmployeeModel@2bc6bfc, com.mongo.demo.model.EmployeeModel@24c24cd]
+2022-05-04 13:31:10.141  INFO 505456 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 505456 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 13:31:10.150  INFO 505456 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 13:31:13.651  INFO 505456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 13:31:13.934  INFO 505456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 267 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 13:31:16.569  INFO 505456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 13:31:16.644  INFO 505456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 13:31:16.646  INFO 505456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 13:31:17.464  INFO 505456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 13:31:17.466  INFO 505456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6712 ms
+2022-05-04 13:31:18.584  INFO 505456 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 13:31:19.024  INFO 505456 --- [cluster-rtt-ClusterId{value='627232cefa3dd9558bdc717d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:49}] to localhost:27017
+2022-05-04 13:31:19.035  INFO 505456 --- [cluster-ClusterId{value='627232cefa3dd9558bdc717d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:50}] to localhost:27017
+2022-05-04 13:31:19.082  INFO 505456 --- [cluster-ClusterId{value='627232cefa3dd9558bdc717d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=95487740}
+2022-05-04 13:31:21.957  INFO 505456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-04 13:31:22.038  INFO 505456 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 14.604 seconds (JVM running for 16.716)
+2022-05-04 13:31:49.313  INFO 505456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-04 13:31:49.314  INFO 505456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-04 13:31:49.365  INFO 505456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 50 ms
+2022-05-04 13:34:02.681  INFO 509100 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 509100 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 13:34:02.702  INFO 509100 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 13:34:05.865  INFO 509100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 13:34:06.116  INFO 509100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 238 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 13:34:08.504  INFO 509100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 13:34:08.535  INFO 509100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 13:34:08.537  INFO 509100 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 13:34:08.836  INFO 509100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 13:34:08.837  INFO 509100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5641 ms
+2022-05-04 13:34:09.444  INFO 509100 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 13:34:09.762  INFO 509100 --- [cluster-ClusterId{value='62723379c32ded4a6b1d2f59', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:51}] to localhost:27017
+2022-05-04 13:34:09.789  INFO 509100 --- [cluster-ClusterId{value='62723379c32ded4a6b1d2f59', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=114117221}
+2022-05-04 13:34:09.761  INFO 509100 --- [cluster-rtt-ClusterId{value='62723379c32ded4a6b1d2f59', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:52}] to localhost:27017
+2022-05-04 13:34:12.617  INFO 509100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-04 13:34:12.661  INFO 509100 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 12.758 seconds (JVM running for 14.951)
+2022-05-04 13:34:18.096  INFO 509100 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-04 13:34:18.099  INFO 509100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-04 13:34:18.106  INFO 509100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-05-04 13:36:52.456  INFO 512807 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 512807 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 13:36:52.478  INFO 512807 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 13:36:55.258  INFO 512807 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 13:36:55.696  INFO 512807 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 407 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 13:36:58.738  INFO 512807 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 13:36:58.778  INFO 512807 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 13:36:58.780  INFO 512807 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 13:36:59.500  INFO 512807 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 13:36:59.509  INFO 512807 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6574 ms
+2022-05-04 13:37:00.388  INFO 512807 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 13:37:00.903  INFO 512807 --- [cluster-ClusterId{value='62723424d3efe34cbda3b127', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:54}] to localhost:27017
+2022-05-04 13:37:00.925  INFO 512807 --- [cluster-rtt-ClusterId{value='62723424d3efe34cbda3b127', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:53}] to localhost:27017
+2022-05-04 13:37:00.943  INFO 512807 --- [cluster-ClusterId{value='62723424d3efe34cbda3b127', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=128931738}
+2022-05-04 13:37:03.923  INFO 512807 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-04 13:37:03.970  INFO 512807 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 13.436 seconds (JVM running for 15.563)
+2022-05-04 13:37:14.791  INFO 512807 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-04 13:37:14.795  INFO 512807 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-04 13:37:14.807  INFO 512807 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2022-05-04 13:37:15.468  INFO 512807 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:55}] to localhost:27017
+2022-05-04 13:37:15.591  INFO 512807 --- [http-nio-8080-exec-1] c.m.demo.controller.EmployeeController   : user not foud
+2022-05-04 13:37:33.363  INFO 512807 --- [http-nio-8080-exec-2] c.m.demo.controller.EmployeeController   : user not foud
+2022-05-04 13:37:35.584  INFO 512807 --- [http-nio-8080-exec-4] c.m.demo.controller.EmployeeController   : user not foud
+2022-05-04 13:37:53.150  INFO 512807 --- [http-nio-8080-exec-3] c.m.demo.controller.EmployeeController   : user not foud
+2022-05-04 13:37:59.932  INFO 512807 --- [http-nio-8080-exec-5] c.m.demo.controller.EmployeeController   : user not foud
+2022-05-04 13:38:01.497  INFO 512807 --- [http-nio-8080-exec-7] c.m.demo.controller.EmployeeController   : user not foud
+2022-05-04 13:38:02.679  INFO 512807 --- [http-nio-8080-exec-6] c.m.demo.controller.EmployeeController   : user not foud
+2022-05-04 13:38:03.328  INFO 512807 --- [http-nio-8080-exec-8] c.m.demo.controller.EmployeeController   : user not foud
+2022-05-04 13:38:04.043  INFO 512807 --- [http-nio-8080-exec-9] c.m.demo.controller.EmployeeController   : user not foud
+2022-05-04 13:38:09.033  INFO 512807 --- [http-nio-8080-exec-10] c.m.demo.controller.EmployeeController   : user not foud
+2022-05-04 13:51:45.168  INFO 531328 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 531328 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 13:51:45.179  INFO 531328 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 13:51:47.307  INFO 531328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 13:51:47.551  INFO 531328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 223 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 13:51:50.976  INFO 531328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 13:51:51.036  INFO 531328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 13:51:51.039  INFO 531328 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 13:51:51.492  INFO 531328 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 13:51:51.494  INFO 531328 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5984 ms
+2022-05-04 13:51:52.646  INFO 531328 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 13:51:53.206  INFO 531328 --- [cluster-rtt-ClusterId{value='627237a00f94e27740506eaf', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:57}] to localhost:27017
+2022-05-04 13:51:53.226  INFO 531328 --- [cluster-ClusterId{value='627237a00f94e27740506eaf', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:56}] to localhost:27017
+2022-05-04 13:51:53.228  INFO 531328 --- [cluster-ClusterId{value='627237a00f94e27740506eaf', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=174408256}
+2022-05-04 13:51:57.492  INFO 531328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-04 13:51:57.594  INFO 531328 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 15.894 seconds (JVM running for 18.8)
+2022-05-04 13:52:04.481  INFO 531328 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-04 13:52:04.484  INFO 531328 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-04 13:52:04.495  INFO 531328 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2022-05-04 13:52:05.233  INFO 531328 --- [http-nio-8080-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:58}] to localhost:27017
+2022-05-04 13:52:05.459  INFO 531328 --- [http-nio-8080-exec-2] c.m.demo.controller.EmployeeController   : data[com.mongo.demo.model.EmployeeModel@5d1cd23b, com.mongo.demo.model.EmployeeModel@428e8821, com.mongo.demo.model.EmployeeModel@10d84f8c, com.mongo.demo.model.EmployeeModel@28eae53b]
+2022-05-04 13:53:25.206  WARN 531328 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2022-05-04 13:56:11.090  INFO 536485 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 536485 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 13:56:11.111  INFO 536485 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 13:56:13.990  INFO 536485 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 13:56:14.215  INFO 536485 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 211 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 13:56:16.833  INFO 536485 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 13:56:16.869  INFO 536485 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 13:56:16.871  INFO 536485 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 13:56:17.512  INFO 536485 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 13:56:17.514  INFO 536485 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6007 ms
+2022-05-04 13:56:18.232  INFO 536485 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 13:56:18.577  INFO 536485 --- [cluster-rtt-ClusterId{value='627238aadab97167f0285f7e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:60}] to localhost:27017
+2022-05-04 13:56:18.573  INFO 536485 --- [cluster-ClusterId{value='627238aadab97167f0285f7e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:59}] to localhost:27017
+2022-05-04 13:56:18.630  INFO 536485 --- [cluster-ClusterId{value='627238aadab97167f0285f7e', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=97626285}
+2022-05-04 13:56:21.945  INFO 536485 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-04 13:56:22.032  INFO 536485 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 13.66 seconds (JVM running for 15.382)
+2022-05-04 13:56:26.881  INFO 536485 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-04 13:56:26.884  INFO 536485 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-04 13:56:26.903  INFO 536485 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2022-05-04 13:56:28.140  INFO 536485 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:61}] to localhost:27017
+2022-05-04 14:38:38.538  WARN 536485 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2022-05-04 14:44:09.982  INFO 601506 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 601506 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 14:44:10.007  INFO 601506 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 14:44:12.667  INFO 601506 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 14:44:12.964  INFO 601506 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 285 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 14:44:15.435  INFO 601506 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 14:44:15.485  INFO 601506 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 14:44:15.488  INFO 601506 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 14:44:15.959  INFO 601506 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 14:44:15.960  INFO 601506 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5601 ms
+2022-05-04 14:44:16.889  INFO 601506 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 14:44:17.231  INFO 601506 --- [cluster-rtt-ClusterId{value='627243e8667a6c4acbf08ad1', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:62}] to localhost:27017
+2022-05-04 14:44:17.231  INFO 601506 --- [cluster-ClusterId{value='627243e8667a6c4acbf08ad1', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:63}] to localhost:27017
+2022-05-04 14:44:17.271  INFO 601506 --- [cluster-ClusterId{value='627243e8667a6c4acbf08ad1', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=93689453}
+2022-05-04 14:44:19.692  INFO 601506 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-04 14:44:19.725  INFO 601506 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 11.663 seconds (JVM running for 12.676)
+2022-05-04 14:54:16.104  INFO 601506 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-04 14:54:16.124  INFO 601506 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-04 14:54:16.214  INFO 601506 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 88 ms
+2022-05-04 14:54:16.974  INFO 601506 --- [http-nio-8080-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:64}] to localhost:27017
+2022-05-04 14:55:16.773  INFO 616865 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 616865 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 14:55:16.781  INFO 616865 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 14:55:19.716  INFO 616865 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 14:55:20.036  INFO 616865 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 295 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 14:55:22.012  INFO 616865 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 14:55:22.070  INFO 616865 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 14:55:22.072  INFO 616865 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 14:55:22.429  INFO 616865 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 14:55:22.430  INFO 616865 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5294 ms
+2022-05-04 14:55:23.193  INFO 616865 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 14:55:23.386  INFO 616865 --- [cluster-rtt-ClusterId{value='62724683d92cfc4a043a2053', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:65}] to localhost:27017
+2022-05-04 14:55:23.386  INFO 616865 --- [cluster-ClusterId{value='62724683d92cfc4a043a2053', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:66}] to localhost:27017
+2022-05-04 14:55:23.397  INFO 616865 --- [cluster-ClusterId{value='62724683d92cfc4a043a2053', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=58989223}
+2022-05-04 14:55:25.336  INFO 616865 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-04 14:55:25.374  INFO 616865 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 10.652 seconds (JVM running for 12.447)
+2022-05-04 14:55:40.326  INFO 616865 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-04 14:55:40.327  INFO 616865 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-04 14:55:40.333  INFO 616865 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-05-04 14:55:40.755  INFO 616865 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:67}] to localhost:27017
+2022-05-04 14:56:30.184  INFO 618506 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 618506 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 14:56:30.193  INFO 618506 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 14:56:32.337  INFO 618506 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 14:56:32.498  INFO 618506 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 150 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 14:56:33.977  INFO 618506 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 14:56:34.000  INFO 618506 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 14:56:34.001  INFO 618506 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 14:56:34.359  INFO 618506 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 14:56:34.360  INFO 618506 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3710 ms
+2022-05-04 14:56:34.884  INFO 618506 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 14:56:35.131  INFO 618506 --- [cluster-ClusterId{value='627246ca41d732694d56fce3', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:69}] to localhost:27017
+2022-05-04 14:56:35.145  INFO 618506 --- [cluster-rtt-ClusterId{value='627246ca41d732694d56fce3', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:68}] to localhost:27017
+2022-05-04 14:56:35.146  INFO 618506 --- [cluster-ClusterId{value='627246ca41d732694d56fce3', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=91256731}
+2022-05-04 14:56:38.303  INFO 618506 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-04 14:56:38.379  INFO 618506 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 10.08 seconds (JVM running for 11.885)
+2022-05-04 14:57:17.923  INFO 618506 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-04 14:57:17.928  INFO 618506 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-04 14:57:17.948  INFO 618506 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2022-05-04 14:58:38.175  INFO 618506 --- [http-nio-8080-exec-4] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:70}] to localhost:27017
+2022-05-04 14:58:38.252  INFO 618506 --- [http-nio-8080-exec-4] c.m.demo.controller.EmployeeController   : data[com.mongo.demo.model.EmployeeModel@4630b607, com.mongo.demo.model.EmployeeModel@56ceb7e9, com.mongo.demo.model.EmployeeModel@44c86338]
+2022-05-04 16:37:34.100  INFO 755140 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 755140 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 16:37:34.128  INFO 755140 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 16:37:37.396  INFO 755140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 16:37:37.820  INFO 755140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 397 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 16:37:41.145  INFO 755140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 16:37:41.204  INFO 755140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 16:37:41.206  INFO 755140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 16:37:41.663  INFO 755140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 16:37:41.666  INFO 755140 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7133 ms
+2022-05-04 16:37:42.318  INFO 755140 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 16:37:42.787  INFO 755140 --- [cluster-ClusterId{value='62725e7ed4fc310782341404', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:71}] to localhost:27017
+2022-05-04 16:37:42.807  INFO 755140 --- [cluster-ClusterId{value='62725e7ed4fc310782341404', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=206684534}
+2022-05-04 16:37:42.815  INFO 755140 --- [cluster-rtt-ClusterId{value='62725e7ed4fc310782341404', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:72}] to localhost:27017
+2022-05-04 16:37:45.952  INFO 755140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-04 16:37:45.985  INFO 755140 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 13.649 seconds (JVM running for 15.553)
+2022-05-04 16:37:58.045  INFO 755140 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-04 16:37:58.048  INFO 755140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-04 16:37:58.070  INFO 755140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2022-05-04 16:38:13.723  INFO 755140 --- [http-nio-8080-exec-5] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:73}] to localhost:27017
+2022-05-04 16:38:13.903  INFO 755140 --- [http-nio-8080-exec-5] c.m.demo.controller.EmployeeController   : data[com.mongo.demo.model.EmployeeModel@14abde28, com.mongo.demo.model.EmployeeModel@2065d84f, com.mongo.demo.model.EmployeeModel@7cdd9527]
+2022-05-04 16:48:56.075  INFO 770757 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 770757 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 16:48:56.084  INFO 770757 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 16:48:57.518  INFO 770757 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 16:48:57.713  INFO 770757 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 184 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 16:48:59.950  INFO 770757 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 16:48:59.994  INFO 770757 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 16:48:59.997  INFO 770757 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 16:49:00.497  INFO 770757 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 16:49:00.499  INFO 770757 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4252 ms
+2022-05-04 16:49:01.499  INFO 770757 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 16:49:01.872  INFO 770757 --- [cluster-ClusterId{value='6272612534fcac1fb391e9fd', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:74}] to localhost:27017
+2022-05-04 16:49:01.876  INFO 770757 --- [cluster-rtt-ClusterId{value='6272612534fcac1fb391e9fd', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:75}] to localhost:27017
+2022-05-04 16:49:01.917  INFO 770757 --- [cluster-ClusterId{value='6272612534fcac1fb391e9fd', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=127120800}
+2022-05-04 16:49:05.108  WARN 770757 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+2022-05-04 16:49:05.179  INFO 770757 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-04 16:49:05.287  INFO 770757 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-04 16:49:05.411 ERROR 770757 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.7.jar:2.6.7]
+	at com.mongo.demo.DemoApplication.main(DemoApplication.java:12) ~[classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.19.jar:5.3.19]
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:291) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:268) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1090) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1032) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.19.jar:5.3.19]
+	... 20 common frames omitted
+
+2022-05-04 16:49:53.332  INFO 771914 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 771914 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 16:49:53.343  INFO 771914 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 16:49:57.216  INFO 771914 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 16:49:57.565  INFO 771914 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 326 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 16:49:59.977  INFO 771914 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 16:50:00.038  INFO 771914 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 16:50:00.042  INFO 771914 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 16:50:00.508  INFO 771914 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 16:50:00.509  INFO 771914 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6832 ms
+2022-05-04 16:50:01.397  INFO 771914 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 16:50:01.933  INFO 771914 --- [cluster-ClusterId{value='627261618e85aa3ee52962cf', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:76}] to localhost:27017
+2022-05-04 16:50:01.957  INFO 771914 --- [cluster-ClusterId{value='627261618e85aa3ee52962cf', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=190341021}
+2022-05-04 16:50:01.890  INFO 771914 --- [cluster-rtt-ClusterId{value='627261618e85aa3ee52962cf', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:77}] to localhost:27017
+2022-05-04 16:50:05.082  WARN 771914 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+2022-05-04 16:50:05.136  INFO 771914 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-04 16:50:05.202  INFO 771914 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-04 16:50:05.276 ERROR 771914 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.7.jar:2.6.7]
+	at com.mongo.demo.DemoApplication.main(DemoApplication.java:12) ~[classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.19.jar:5.3.19]
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:291) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:268) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1090) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1032) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.19.jar:5.3.19]
+	... 20 common frames omitted
+
+2022-05-04 16:51:51.928  INFO 774648 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 774648 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 16:51:51.972  INFO 774648 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 16:51:54.525  INFO 774648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 16:51:54.708  INFO 774648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 169 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 16:51:57.943  INFO 774648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 16:51:58.030  INFO 774648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 16:51:58.032  INFO 774648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 16:51:58.900  INFO 774648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 16:51:58.904  INFO 774648 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6406 ms
+2022-05-04 16:51:59.711  INFO 774648 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 16:52:00.065  INFO 774648 --- [cluster-rtt-ClusterId{value='627261d73ca3ec602c2d6518', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:79}] to localhost:27017
+2022-05-04 16:52:00.065  INFO 774648 --- [cluster-ClusterId{value='627261d73ca3ec602c2d6518', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:78}] to localhost:27017
+2022-05-04 16:52:00.140  INFO 774648 --- [cluster-ClusterId{value='627261d73ca3ec602c2d6518', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=121749995}
+2022-05-04 16:52:02.468  WARN 774648 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+2022-05-04 16:52:02.507  INFO 774648 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-04 16:52:02.582  INFO 774648 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-04 16:52:02.652 ERROR 774648 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.7.jar:2.6.7]
+	at com.mongo.demo.DemoApplication.main(DemoApplication.java:12) ~[classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.19.jar:5.3.19]
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:291) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:268) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1090) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1032) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.19.jar:5.3.19]
+	... 20 common frames omitted
+
+2022-05-04 16:53:08.953  INFO 776376 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 776376 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 16:53:08.965  INFO 776376 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 16:53:10.914  INFO 776376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 16:53:11.282  INFO 776376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 334 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 16:53:13.999  INFO 776376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 16:53:14.034  INFO 776376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 16:53:14.036  INFO 776376 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 16:53:14.418  INFO 776376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 16:53:14.420  INFO 776376 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5289 ms
+2022-05-04 16:53:15.326  INFO 776376 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 16:53:15.778  INFO 776376 --- [cluster-rtt-ClusterId{value='62726223cf0c3d60f8b89fb7', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:80}] to localhost:27017
+2022-05-04 16:53:15.784  INFO 776376 --- [cluster-ClusterId{value='62726223cf0c3d60f8b89fb7', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:81}] to localhost:27017
+2022-05-04 16:53:15.825  INFO 776376 --- [cluster-ClusterId{value='62726223cf0c3d60f8b89fb7', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=166752688}
+2022-05-04 16:53:18.251  WARN 776376 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+2022-05-04 16:53:18.307  INFO 776376 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-04 16:53:18.364  INFO 776376 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-04 16:53:18.419 ERROR 776376 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.7.jar:2.6.7]
+	at com.mongo.demo.DemoApplication.main(DemoApplication.java:12) ~[classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.19.jar:5.3.19]
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:291) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:268) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1090) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1032) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.19.jar:5.3.19]
+	... 20 common frames omitted
+
+2022-05-04 16:56:32.019  INFO 780955 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 780955 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-04 16:56:32.038  INFO 780955 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-04 16:56:34.229  INFO 780955 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-04 16:56:34.425  INFO 780955 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 184 ms. Found 1 MongoDB repository interfaces.
+2022-05-04 16:56:35.873  INFO 780955 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-04 16:56:35.910  INFO 780955 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-04 16:56:35.915  INFO 780955 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-04 16:56:36.586  INFO 780955 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-04 16:56:36.587  INFO 780955 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4080 ms
+2022-05-04 16:56:37.412  INFO 780955 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-04 16:56:37.834  INFO 780955 --- [cluster-rtt-ClusterId{value='627262ed6ea97842d3c66fc3', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:82}] to localhost:27017
+2022-05-04 16:56:37.851  INFO 780955 --- [cluster-ClusterId{value='627262ed6ea97842d3c66fc3', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:83}] to localhost:27017
+2022-05-04 16:56:37.931  INFO 780955 --- [cluster-ClusterId{value='627262ed6ea97842d3c66fc3', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=162985549}
+2022-05-04 16:56:40.440  WARN 780955 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+2022-05-04 16:56:40.470  INFO 780955 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-04 16:56:40.522  INFO 780955 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-04 16:56:40.591 ERROR 780955 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.7.jar:2.6.7]
+	at com.mongo.demo.DemoApplication.main(DemoApplication.java:12) ~[classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.19.jar:5.3.19]
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class com.mongo.demo.controller.userNotFound]: {public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handleAllbException(com.mongo.demo.controller.userNotFound,org.springframework.web.context.request.WebRequest), public final org.springframework.http.ResponseEntity com.mongo.demo.exceptions.customizedExceptionResponse.handlebadrequest(com.mongo.demo.controller.badrequest,org.springframework.web.context.request.WebRequest)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:291) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:268) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1090) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1032) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.19.jar:5.3.19]
+	... 20 common frames omitted
+

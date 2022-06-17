@@ -1,0 +1,345 @@
+2022-06-14 16:20:55.085  INFO 646855 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 646855 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 16:20:57.928  INFO 646855 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 216 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 16:21:00.827  INFO 646855 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 16:21:00.860  INFO 646855 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 16:21:00.862  INFO 646855 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-14 16:21:01.322  INFO 646855 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 16:21:01.323  INFO 646855 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5903 ms
+2022-06-14 16:21:02.221  INFO 646855 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-14 16:21:02.605  INFO 646855 --- [cluster-rtt-ClusterId{value='62a868163c4aee193085541f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:1}] to localhost:27017
+2022-06-14 16:21:02.610  INFO 646855 --- [cluster-ClusterId{value='62a868163c4aee193085541f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+2022-06-14 16:21:02.629  INFO 646855 --- [cluster-ClusterId{value='62a868163c4aee193085541f', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=93089723}
+2022-06-14 16:21:05.499  WARN 646855 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-06-14 16:21:05.535  INFO 646855 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-06-14 16:21:05.611  INFO 646855 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-14 16:21:05.690 ERROR 646855 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-06-14 16:21:22.654  INFO 647473 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 647473 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 16:21:22.672  INFO 647473 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 16:21:25.871  INFO 647473 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 16:21:26.149  INFO 647473 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 258 ms. Fou2022-06-14 16:22:56.933  INFO 649408 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 11.991 seconds (JVM running for 13.534)
+2022-06-14 16:38:58.443  INFO 671737 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 671737 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 16:38:58.462  INFO 671737 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 16:39:01.752  INFO 671737 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 16:39:02.066  INFO 671737 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 300 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 16:39:04.688  INFO 671737 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 16:39:04.734  INFO 671737 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 16:39:04.737  INFO 671737 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-14 16:39:05.054  INFO 671737 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 16:39:05.056  INFO 671737 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6038 ms
+2022-06-14 16:39:05.501  INFO 671737 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-14 16:39:05.701  INFO 671737 --- [cluster-rtt-ClusterId{value='62a86c5122283b5368b5f648', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:11}] to localhost:27017
+2022-06-14 16:39:05.702  INFO 671737 --- [cluster-ClusterId{value='62a86c5122283b5368b5f648', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:12}] to localhost:27017
+2022-06-14 16:39:05.713  INFO 671737 --- [cluster-ClusterId{value='62a86c5122283b5368b5f648', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=61276193}
+2022-06-14 16:39:07.283  INFO 671737 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 16:39:07.312  INFO 671737 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 10.877 seconds (JVM running for 12.823)
+2022-06-14 16:40:50.844  INFO 674257 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 674257 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 16:40:50.853  INFO 674257 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 16:40:53.022  INFO 674257 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 16:40:53.269  INFO 674257 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 232 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 16:40:55.789  INFO 674257 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 16:40:55.823  INFO 674257 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-062022-06-14 16:43:57.014  INFO 678600 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 678600 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 16:43:57.032  INFO 678600 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 16:44:01.200  INFO 678600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 16:44:01.500  INFO 678600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 274 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 16:44:06.224  INFO 678600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 16:44:06.294  INFO 678600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 16:44:06.296  INFO 678600 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-14 16:44:07.077  INFO 678600 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 16:44:07.078  INFO 678600 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9525 ms
+2022-06-14 16:44:08.370  INFO 678600 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-14 16:44:08.872  INFO 678600 --- [cluster-rtt-ClusterId{value='62a86d80c37ce077dbc8eb45', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:18}] to localhost:27017
+2022-06-14 16:44:08.880  INFO 678600 --- [cluster-ClusterId{value='62a86d80c37ce077dbc8eb45', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:17}] to localhost:27017
+2022-06-14 16:44:08.886  INFO 678600 --- [cluster-ClusterId{value='62a86d80c37ce077dbc8eb45', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=223527299}
+2022-06-14 16:44:12.895  WARN 678600 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-06-14 16:44:12.928  INFO 678600 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-06-14 16:44:13.029  INFO 678600 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-14 16:44:13.146 ERROR 678600 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-06-14 16:49:28.320  INFO 686021 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 686021 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 16:49:28.339  INFO 686021 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default pro2022-06-14 16:49:39.241  INFO 686021 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 12.802 seconds (JVM running for 14.852)
+2022-06-14 21:32:26.965  INFO 1089664 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 1089664 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 21:32:26.972  INFO 1089664 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 21:32:28.486  INFO 1089664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 21:32:28.684  INFO 1089664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 186 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 21:32:30.533  INFO 1089664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 21:32:30.568  INFO 1089664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 21:32:30.570  INFO 1089664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-14 21:32:30.915  INFO 1089664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 21:32:30.916  INFO 1089664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3806 ms
+2022-06-14 21:32:31.510  INFO 1089664 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-14 21:32:31.797  INFO 1089664 --- [cluster-ClusterId{value='62a8b117cb84f407f19d9a93', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:22}] to localhost:27017
+2022-06-14 21:32:31.794  INFO 1089664 --- [cluster-rtt-ClusterId{value='62a8b117cb84f407f19d9a93', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:21}] to localhost:27017
+2022-06-14 21:32:31.800  INFO 1089664 --- [cluster-ClusterId{value='62a8b117cb84f407f19d9a93', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=92088241}
+2022-06-14 21:32:33.661  INFO 1089664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 21:32:33.685  INFO 1089664 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 8.102 seconds (JVM running for 16.297)
+2022-06-14 21:34:22.492  INFO 1089664 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-14 21:34:22.494  INFO 1089664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-14 21:34:22.500  INFO 1089664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-06-14 21:34:23.531  INFO 1089664 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:23}] to localhost:27017
+2022-06-14 21:37:02.383  INFO 1096374 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 1096374 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 21:37:02.394  INFO 1096374 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 21:37:04.380  INFO 1096374 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 21:37:04.549  INFO 1096374 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 154 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 21:37:06.719  INFO 1096374 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 21:37:06.754  INFO 1096374 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 21:37:06.755  INFO 1096374 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-14 21:37:07.137  INFO 1096374 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 21:37:07.138  INFO 1096374 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4561 ms
+2022-06-14 21:37:07.658  INFO 1096374 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-14 21:37:07.931  INFO 1096374 --- [cluster-ClusterId{value='62a8b22b017839007fbbc2a4', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:24}] to localhost:27017
+2022-06-14 21:37:07.930  INFO 1096374 --- [cluster-rtt-ClusterId{value='62a8b22b017839007fbbc2a4', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:25}] to localhost:27017
+2022-06-14 21:37:07.941  INFO 1096374 --- [cluster-ClusterId{value='62a8b22b017839007fbbc2a4', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=98652420}
+2022-06-14 21:37:10.044  INFO 1096374 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 21:37:10.075  INFO 1096374 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 9.196 seconds (JVM running for 10.444)
+2022-06-14 21:37:28.913  INFO 1096374 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-14 21:37:28.914  INFO 1096374 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-14 21:37:28.925  INFO 1096374 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2022-06-14 21:37:29.698  INFO 1096374 --- [http-nio-8080-exec-2] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:37:47.061  INFO 1096374 --- [http-nio-8080-exec-3] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:37:48.878  INFO 1096374 --- [http-nio-8080-exec-4] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:37:50.315  INFO 1096374 --- [http-nio-8080-exec-1] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:37:51.566  INFO 1096374 --- [http-nio-8080-exec-5] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:39:54.851  INFO 1096374 --- [http-nio-8080-exec-8] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:26}] to localhost:27017
+2022-06-14 21:40:51.025  INFO 1096374 --- [http-nio-8080-exec-9] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:42:24.687  INFO 1096374 --- [http-nio-8080-exec-10] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:43:29.867  INFO 1105479 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 1105479 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 21:43:29.875  INFO 1105479 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 21:43:32.074  INFO 1105479 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 21:43:32.284  INFO 1105479 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 195 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 21:43:34.246  INFO 1105479 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 21:43:34.281  INFO 1105479 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 21:43:34.283  INFO 1105479 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-14 21:43:34.769  INFO 1105479 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 21:43:34.771  INFO 1105479 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4444 ms
+2022-06-14 21:43:35.421  INFO 1105479 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-14 21:43:35.739  INFO 1105479 --- [cluster-ClusterId{value='62a8b3af81d4553c7af1536e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:27}] to localhost:27017
+2022-06-14 21:43:35.736  INFO 1105479 --- [cluster-rtt-ClusterId{value='62a8b3af81d4553c7af1536e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:28}] to localhost:27017
+2022-06-14 21:43:35.749  INFO 1105479 --- [cluster-ClusterId{value='62a8b3af81d4553c7af1536e', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=62158962}
+2022-06-14 21:43:37.966  INFO 1105479 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 21:43:38.004  INFO 1105479 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 9.649 seconds (JVM running for 10.979)
+2022-06-14 21:43:45.983  INFO 1105479 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-14 21:43:45.984  INFO 1105479 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-14 21:43:45.990  INFO 1105479 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-06-14 21:43:46.500  INFO 1105479 --- [http-nio-8080-exec-1] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:44:19.370  WARN 1105479 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : Request method 'PUT' not supported
+2022-06-14 21:46:03.049  INFO 1105479 --- [http-nio-8080-exec-3] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:47:39.583  INFO 1105479 --- [http-nio-8080-exec-4] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:47:39.784  INFO 1105479 --- [http-nio-8080-exec-5] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:47:39.967  INFO 1105479 --- [http-nio-8080-exec-6] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:47:40.168  INFO 1105479 --- [http-nio-8080-exec-7] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:47:40.731  INFO 1105479 --- [http-nio-8080-exec-8] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:47:41.095  INFO 1105479 --- [http-nio-8080-exec-9] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:47:41.335  INFO 1105479 --- [http-nio-8080-exec-10] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:47:41.575  INFO 1105479 --- [http-nio-8080-exec-1] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:47:41.784  INFO 1105479 --- [http-nio-8080-exec-2] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:47:42.022  INFO 1105479 --- [http-nio-8080-exec-3] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:47:55.785  INFO 1105479 --- [http-nio-8080-exec-4] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:29}] to localhost:27017
+2022-06-14 21:47:56.079  INFO 1105479 --- [http-nio-8080-exec-4] c.m.demo.controller.EmployeeController   : data[com.mongo.demo.model.EmployeeModel@4eb73dd4, com.mongo.demo.model.EmployeeModel@51a97e00]
+2022-06-14 21:48:01.279  INFO 1105479 --- [http-nio-8080-exec-5] c.m.demo.controller.EmployeeController   : user not foud
+2022-06-14 21:53:14.911  INFO 1119568 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 1119568 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 21:53:14.930  INFO 1119568 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 21:53:16.617  INFO 1119568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 21:53:16.750  INFO 1119568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 21:53:18.303  INFO 1119568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 21:53:18.337  INFO 1119568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 21:53:18.338  INFO 1119568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-14 21:53:18.703  INFO 1119568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 21:53:18.704  INFO 1119568 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3566 ms
+2022-06-14 21:53:19.465  INFO 1119568 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-14 21:53:19.716  INFO 1119568 --- [cluster-ClusterId{value='62a8b5f78b87a63684cfdd4f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:31}] to localhost:27017
+2022-06-14 21:53:19.708  INFO 1119568 --- [cluster-rtt-ClusterId{value='62a8b5f78b87a63684cfdd4f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:30}] to localhost:27017
+2022-06-14 21:53:19.724  INFO 1119568 --- [cluster-ClusterId{value='62a8b5f78b87a63684cfdd4f', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=81450881}
+2022-06-14 21:53:22.038  INFO 1119568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 21:53:22.073  INFO 1119568 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 9.038 seconds (JVM running for 10.813)
+2022-06-14 21:54:09.581  INFO 1119568 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-14 21:54:09.587  INFO 1119568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-14 21:54:09.596  INFO 1119568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2022-06-14 21:54:10.113  INFO 1119568 --- [http-nio-8080-exec-1] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:54:53.370  INFO 1121865 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 1121865 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 21:54:53.379  INFO 1121865 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 21:54:55.318  INFO 1121865 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 21:54:55.480  INFO 1121865 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 149 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 21:54:56.981  INFO 1121865 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 21:54:57.005  INFO 1121865 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 21:54:57.007  INFO 1121865 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-14 21:54:57.204  INFO 1121865 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 21:54:57.205  INFO 1121865 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3463 ms
+2022-06-14 21:54:57.627  INFO 1121865 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-14 21:54:57.905  INFO 1121865 --- [cluster-ClusterId{value='62a8b6599e8eba19dd927f01', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:33}] to localhost:27017
+2022-06-14 21:54:57.922  INFO 1121865 --- [cluster-ClusterId{value='62a8b6599e8eba19dd927f01', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=94887747}
+2022-06-14 21:54:57.905  INFO 1121865 --- [cluster-rtt-ClusterId{value='62a8b6599e8eba19dd927f01', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:32}] to localhost:27017
+2022-06-14 21:55:00.699  INFO 1121865 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 21:55:00.763  INFO 1121865 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 9.116 seconds (JVM running for 10.394)
+2022-06-14 21:55:12.607  INFO 1121865 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-14 21:55:12.616  INFO 1121865 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-14 21:55:12.627  INFO 1121865 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2022-06-14 21:55:13.103  INFO 1121865 --- [http-nio-8080-exec-1] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 21:59:57.495  INFO 1129097 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 1129097 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 21:59:57.503  INFO 1129097 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 21:59:58.785  INFO 1129097 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 21:59:58.976  INFO 1129097 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 178 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 22:00:00.544  INFO 1129097 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 22:00:00.570  INFO 1129097 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 22:00:00.571  INFO 1129097 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-14 22:00:00.836  INFO 1129097 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 22:00:00.837  INFO 1129097 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3155 ms
+2022-06-14 22:00:01.399  INFO 1129097 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-14 22:00:01.714  INFO 1129097 --- [cluster-ClusterId{value='62a8b789e1f5e72f5dafe418', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:35}] to localhost:27017
+2022-06-14 22:00:01.739  INFO 1129097 --- [cluster-ClusterId{value='62a8b789e1f5e72f5dafe418', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=98826918}
+2022-06-14 22:00:01.703  INFO 1129097 --- [cluster-rtt-ClusterId{value='62a8b789e1f5e72f5dafe418', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:34}] to localhost:27017
+2022-06-14 22:00:04.089  INFO 1129097 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 22:00:04.127  INFO 1129097 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 7.693 seconds (JVM running for 8.569)
+2022-06-14 22:00:08.061  INFO 1129097 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-14 22:00:08.065  INFO 1129097 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-14 22:00:08.074  INFO 1129097 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2022-06-14 22:00:08.596  INFO 1129097 --- [http-nio-8080-exec-2] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.badrequest: bad request
+2022-06-14 22:08:53.915  INFO 1141869 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 1141869 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 22:08:53.924  INFO 1141869 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 22:08:55.270  INFO 1141869 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 22:08:55.445  INFO 1141869 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 164 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 22:08:57.024  INFO 1141869 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 22:08:57.070  INFO 1141869 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 22:08:57.073  INFO 1141869 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-14 22:08:57.531  INFO 1141869 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 22:08:57.534  INFO 1141869 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3448 ms
+2022-06-14 22:08:58.160  INFO 1141869 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-14 22:08:58.462  INFO 1141869 --- [cluster-ClusterId{value='62a8b9a2c7f2c017c73864b6', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:37}] to localhost:27017
+2022-06-14 22:08:58.480  INFO 1141869 --- [cluster-ClusterId{value='62a8b9a2c7f2c017c73864b6', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=86173249}
+2022-06-14 22:08:58.456  INFO 1141869 --- [cluster-rtt-ClusterId{value='62a8b9a2c7f2c017c73864b6', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:36}] to localhost:27017
+2022-06-14 22:09:01.325  INFO 1141869 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 22:09:01.374  INFO 1141869 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 9.143 seconds (JVM running for 10.401)
+2022-06-14 22:09:09.570  INFO 1141869 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-14 22:09:09.579  INFO 1141869 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-14 22:09:09.603  INFO 1141869 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2022-06-14 22:09:09.884  INFO 1141869 --- [http-nio-8080-exec-1] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.intrnalservererror: internal server error
+2022-06-14 22:09:11.715  INFO 1141869 --- [http-nio-8080-exec-2] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.intrnalservererror: internal server error
+2022-06-14 22:09:13.258  INFO 1141869 --- [http-nio-8080-exec-3] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.intrnalservererror: internal server error
+2022-06-14 22:09:14.401  INFO 1141869 --- [http-nio-8080-exec-4] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.intrnalservererror: internal server error
+2022-06-14 22:21:24.816  INFO 1159986 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 1159986 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 22:21:24.824  INFO 1159986 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 22:21:26.326  INFO 1159986 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 22:21:26.453  INFO 1159986 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 22:21:28.589  INFO 1159986 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 22:21:28.623  INFO 1159986 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 22:21:28.624  INFO 1159986 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-14 22:21:29.058  INFO 1159986 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 22:21:29.059  INFO 1159986 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4029 ms
+2022-06-14 22:21:29.893  INFO 1159986 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-14 22:21:30.320  INFO 1159986 --- [cluster-ClusterId{value='62a8bc917161223516118a18', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:39}] to localhost:27017
+2022-06-14 22:21:30.357  INFO 1159986 --- [cluster-ClusterId{value='62a8bc917161223516118a18', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=110351516}
+2022-06-14 22:21:30.332  INFO 1159986 --- [cluster-rtt-ClusterId{value='62a8bc917161223516118a18', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:38}] to localhost:27017
+2022-06-14 22:21:33.202  INFO 1159986 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 22:21:33.264  INFO 1159986 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 10.029 seconds (JVM running for 11.069)
+2022-06-14 22:21:54.382  INFO 1159986 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-14 22:21:54.383  INFO 1159986 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-14 22:21:54.387  INFO 1159986 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-06-14 22:23:39.083  INFO 1163281 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 1163281 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 22:23:39.096  INFO 1163281 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 22:23:41.027  INFO 1163281 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 22:23:41.225  INFO 1163281 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 179 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 22:23:43.419  INFO 1163281 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 22:23:43.461  INFO 1163281 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 22:23:43.463  INFO 1163281 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-14 22:23:43.983  INFO 1163281 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 22:23:43.984  INFO 1163281 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4553 ms
+2022-06-14 22:23:44.583  INFO 1163281 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-14 22:23:44.801  INFO 1163281 --- [cluster-rtt-ClusterId{value='62a8bd18dc30bd0a5aff4032', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:40}] to localhost:27017
+2022-06-14 22:23:44.799  INFO 1163281 --- [cluster-ClusterId{value='62a8bd18dc30bd0a5aff4032', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:41}] to localhost:27017
+2022-06-14 22:23:44.817  INFO 1163281 --- [cluster-ClusterId{value='62a8bd18dc30bd0a5aff4032', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=58110561}
+2022-06-14 22:23:46.617  INFO 1163281 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 22:23:46.652  INFO 1163281 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 9.684 seconds (JVM running for 11.438)
+2022-06-14 22:23:57.879  INFO 1163281 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-14 22:23:57.881  INFO 1163281 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-14 22:23:57.886  INFO 1163281 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-06-14 22:24:06.265  INFO 1163281 --- [http-nio-8080-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:42}] to localhost:27017
+2022-06-14 22:24:06.421  INFO 1163281 --- [http-nio-8080-exec-2] c.m.demo.controller.EmployeeController   : data[com.mongo.demo.model.EmployeeModel@673498c1, com.mongo.demo.model.EmployeeModel@6bf80b44]
+2022-06-14 22:27:32.274  INFO 1168807 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 1168807 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 22:27:32.285  INFO 1168807 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 22:27:34.070  INFO 1168807 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 22:27:34.226  INFO 1168807 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 22:27:35.837  INFO 1168807 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 22:27:35.868  INFO 1168807 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 22:27:35.869  INFO 1168807 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-14 22:27:36.197  INFO 1168807 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 22:27:36.198  INFO 1168807 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3585 ms
+2022-06-14 22:27:36.827  INFO 1168807 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-14 22:27:37.055  INFO 1168807 --- [cluster-ClusterId{value='62a8be00255eb00bc38bc5ef', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:43}] to localhost:27017
+2022-06-14 22:27:37.074  INFO 1168807 --- [cluster-ClusterId{value='62a8be00255eb00bc38bc5ef', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=70963267}
+2022-06-14 22:27:37.055  INFO 1168807 --- [cluster-rtt-ClusterId{value='62a8be00255eb00bc38bc5ef', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:44}] to localhost:27017
+2022-06-14 22:27:38.717  INFO 1168807 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 22:27:38.734  INFO 1168807 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 8.525 seconds (JVM running for 10.037)
+2022-06-14 22:28:13.849  INFO 1168807 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-14 22:28:13.851  INFO 1168807 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-14 22:28:13.856  INFO 1168807 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-06-14 22:28:14.407  INFO 1168807 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:45}] to localhost:27017
+2022-06-14 22:28:21.488  INFO 1168807 --- [http-nio-8080-exec-2] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.intrnalservererror: internal server error
+2022-06-14 22:29:09.270  INFO 1171063 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 1171063 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 22:29:09.301  INFO 1171063 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 22:29:11.771  INFO 1171063 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 22:29:11.943  INFO 1171063 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 159 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 22:29:13.847  INFO 1171063 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 22:29:13.881  INFO 1171063 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 22:29:13.883  INFO 1171063 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-14 22:29:14.226  INFO 1171063 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 22:29:14.230  INFO 1171063 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4409 ms
+2022-06-14 22:29:15.172  INFO 1171063 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-14 22:29:15.522  INFO 1171063 --- [cluster-ClusterId{value='62a8be635e53cf19e1a82a30', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:46}] to localhost:27017
+2022-06-14 22:29:15.561  INFO 1171063 --- [cluster-ClusterId{value='62a8be635e53cf19e1a82a30', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=95282484}
+2022-06-14 22:29:15.535  INFO 1171063 --- [cluster-rtt-ClusterId{value='62a8be635e53cf19e1a82a30', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:47}] to localhost:27017
+2022-06-14 22:29:17.992  INFO 1171063 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 22:29:18.030  INFO 1171063 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 11.243 seconds (JVM running for 12.809)
+2022-06-14 22:29:21.246  INFO 1171063 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-14 22:29:21.247  INFO 1171063 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-14 22:29:21.255  INFO 1171063 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2022-06-14 22:29:21.851  INFO 1171063 --- [http-nio-8080-exec-1] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.intrnalservererror: internal server error
+2022-06-14 22:29:24.681  INFO 1171063 --- [http-nio-8080-exec-2] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.intrnalservererror: internal server error
+2022-06-14 22:31:05.792  INFO 1173763 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 1173763 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-06-14 22:31:05.801  INFO 1173763 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-14 22:31:07.160  INFO 1173763 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-14 22:31:07.288  INFO 1173763 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 1 MongoDB repository interfaces.
+2022-06-14 22:31:08.904  INFO 1173763 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 22:31:08.947  INFO 1173763 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 22:31:08.949  INFO 1173763 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-14 22:31:09.284  INFO 1173763 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 22:31:09.286  INFO 1173763 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3287 ms
+2022-06-14 22:31:09.730  INFO 1173763 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-14 22:31:09.944  INFO 1173763 --- [cluster-ClusterId{value='62a8bed5cc513c6f2be78d36', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:49}] to localhost:27017
+2022-06-14 22:31:09.994  INFO 1173763 --- [cluster-ClusterId{value='62a8bed5cc513c6f2be78d36', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=64647379}
+2022-06-14 22:31:09.953  INFO 1173763 --- [cluster-rtt-ClusterId{value='62a8bed5cc513c6f2be78d36', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:48}] to localhost:27017
+2022-06-14 22:31:11.804  INFO 1173763 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 22:31:11.854  INFO 1173763 --- [main] com.mongo.demo.DemoApplication           : Started DemoApplication in 7.965 seconds (JVM running for 9.389)
+2022-06-14 22:31:15.598  INFO 1173763 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-14 22:31:15.604  INFO 1173763 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-14 22:31:15.614  INFO 1173763 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-06-14 22:31:16.038  INFO 1173763 --- [http-nio-8080-exec-1] c.m.demo.controller.EmployeeController   : internal server error====== com.mongo.demo.controller.intrnalservererror: internal server error
+2022-06-14 22:31:28.304  INFO 1173763 --- [http-nio-8080-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:50}] to localhost:27017

@@ -1,0 +1,32 @@
+2022-05-10 15:49:39.872  INFO 472222 --- [main] com.mongo.demo.DemoApplication           : Starting DemoApplication using Java 11.0.15 on NL1121 with PID 472222 (/home/sonu/Downloads/demo/target/classes started by sonu in /home/sonu/Downloads/demo)
+2022-05-10 15:49:40.014  INFO 472222 --- [main] com.mongo.demo.DemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-10 15:49:46.201  INFO 472222 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-10 15:49:46.895  INFO 472222 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 632 ms. Found 1 MongoDB repository interfaces.
+2022-05-10 15:49:53.768  INFO 472222 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-10 15:49:53.871  INFO 472222 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-10 15:49:53.876  INFO 472222 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-10 15:49:55.040  INFO 472222 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-10 15:49:55.053  INFO 472222 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 14208 ms
+2022-05-10 15:49:57.174  INFO 472222 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-10 15:49:58.213  INFO 472222 --- [cluster-ClusterId{value='627a3c4de2bfdf4c32473b0f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2022-05-10 15:49:58.217  INFO 472222 --- [cluster-rtt-ClusterId{value='627a3c4de2bfdf4c32473b0f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2022-05-10 15:49:58.277  INFO 472222 --- [cluster-ClusterId{value='627a3c4de2bfdf4c32473b0f', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=308577781}
+2022-05-10 15:50:07.487  WARN 472222 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-05-10 15:50:07.538  INFO 472222 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-10 15:50:07.664  INFO 472222 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-10 15:50:07.821 ERROR 472222 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
